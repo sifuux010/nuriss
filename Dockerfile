@@ -9,7 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Dossier persistant (monté en volume) pour nouris_watch.json / history.jsonl
-RUN mkdir -p /app/data && chmod -R 777 /app
+RUN mkdir -p /app/data && cp /app/nouris_watch.json /app/data/nouris_watch.json && chmod -R 777 /app
 ENV DATA_DIR=/app/data
 
 EXPOSE 7860
