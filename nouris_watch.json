@@ -1,0 +1,46 @@
+{
+  "telegram_token": "8924658314:AAHZuMa6yQMOr0MsyWgaCxBlEXox9x0F9tk",
+  "telegram_chat_id": "5709294728",
+  "telegram_chat_ids": [
+    "5709294728",
+    "5084081123",
+    "8817765608",
+    "5917125502"
+  ],
+  "telegram_enabled": true,
+  "headless": true,
+  "admin_pin": "",
+  "language": "fr",
+  "watches": {
+    "1": {
+      "trip_type": "one-way",
+      "outward_route": "Marseille - Algiers",
+      "outward_date": "2026-10-23",
+      "return_route": "Alicante - Algiers",
+      "return_date": "",
+      "vehicle": "MOTO",
+      "trailer": "",
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "interval": 20,
+      "_running": true,
+      "_paused_on_find": false
+    },
+    "2": {
+      "trip_type": "one-way",
+      "outward_route": "Marseille - Algiers",
+      "outward_date": "2026-10-23",
+      "return_route": "Alicante - Algiers",
+      "return_date": "",
+      "vehicle": "CARL",
+      "trailer": "",
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "interval": 20,
+      "_running": true,
+      "_paused_on_find": false
+    }
+  }
+}

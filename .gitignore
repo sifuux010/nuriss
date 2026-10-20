@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+history.jsonl
+tg_control.log
+tg_control_err.log
+watchdog.log
+watchdog_err.log
+*.lock
+nouris_watch.json.bak
