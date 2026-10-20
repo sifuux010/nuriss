@@ -1,7 +1,6 @@
 .venv
 __pycache__
 *.pyc
-nouris_watch.json
 history.jsonl
 tg_control.log
 diag.py
